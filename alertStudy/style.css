@@ -1,0 +1,131 @@
+.light-theme {
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+.light-theme .page-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .header-link {
+  color: #6653d9;
+}
+
+.light-theme .theme-button {
+  color: #6653d9;
+  border: 1px solid #6653d9;
+}
+
+.light-theme html,body {
+  margin: 0;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+  
+  html::before,
+  body::before {
+    color: #7fc1ff;
+  }
+
+  .light-theme .h1 {
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 2px solid #ff994f;
+  }
+
+  .light-theme .h1::before {
+    content: "h1";
+    color: #ff994f;
+  }
+  
+  .light-theme .p {
+    background-color: #ffffff;
+    border: 2px solid #f36dff;
+  }
+  
+  .light-theme .p::before {
+    color: #f36dff;
+    content: "p";
+  }
+
+ /*НАЧАЛО ТЁМНОЙ ТЕМЫ*/
+
+  .dark-theme {
+    color: #300000;
+    background-color: #8878ff;
+  }
+  
+  .dark-theme .page-header {
+    background-color: #3f0042;
+    box-shadow: 0 2px 2px rgba(80, 16, 16, 0.2);
+  }
+  
+  .dark-theme .header-link {
+    color: #080037;
+  }
+  
+  .dark-theme .theme-button {
+    color: #0e005c;
+    border: 1px solid #3d0000;
+  }
+  
+  .dark-theme html,body {
+    margin: 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+    
+    html::before,
+    body::before {
+      color: #002a50;
+    }
+  
+    .dark-theme .h1 {
+      font-size: 18px;
+      background-color: #ff9e9e;
+      border: 2px solid #572400;
+    }
+  
+    .dark-theme .h1::before {
+      content: "h1";
+      color: #963e00;
+    }
+    
+    .dark-theme .p {
+      background-color: #ff9ef9;
+      border: 2px solid #5d2363;
+    }
+    
+    .dark-theme .p::before {
+      color: #240027;
+      content: "p";
+    }
+  
+
+
+  
+  * {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 4px;
+  }
+  
+  *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  *::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+  }

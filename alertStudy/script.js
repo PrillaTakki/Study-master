@@ -1,3 +1,5 @@
+'use strict';
+
 let page = document.querySelector('.page');
 let themeButton = document.querySelector('.theme-button');
 themeButton.onclick = function() {
@@ -5,14 +7,14 @@ themeButton.onclick = function() {
   page.classList.toggle('dark-theme');
 };
 
-let year = prompt('В каком году родилась я?', '');
+let question = prompt('Напиши число?', '');
 
-if (year == 1995) {
-  alert( 'Молодца!' )
+if (question > 1) {
+  alert( 1 );
 }
-else if (year > 1995){
-  alert('Я старше...');
-}
-else if (year < 1995){
-  alert('Я моложе!');
+  else if (question < -1) {
+  alert(-1);
+  }
+  else (question === 0) {
+  alert(0);
 }
